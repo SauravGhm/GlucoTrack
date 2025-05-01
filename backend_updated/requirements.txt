@@ -1,0 +1,12 @@
+notebook
+ipykernel
+jupyterlab
+flask
+flask-cors
+scikit-learn
+joblib
+pandas
+numpy
+shap
+matplotlib
+seaborn
