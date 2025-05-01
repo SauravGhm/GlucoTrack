@@ -1,0 +1,12 @@
+{
+    "name": "glucotrack-root",
+    "private": true,
+    "scripts": {
+        "start": "concurrently \"npm run server\" \"npm run client\"",
+        "server": "cd backend && python app.py",
+        "client": "cd frontend && npm run dev"
+    },
+    "devDependencies": {
+        "concurrently": "^8.2.2"
+    }
+}
